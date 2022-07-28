@@ -10,13 +10,17 @@ export default function Project({ item }) {
       <div className="flex gap-5">
         <a
           className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer"
-          href=""
+          href={item.githubLink}
+          target="_blank"
+          rel="noreferrer"
         >
           Github
         </a>
         <a
           className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer"
-          href=""
+          href={item.demoLink}
+          target="_blank"
+          rel="noreferrer"
         >
           Demo
         </a>

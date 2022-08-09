@@ -21,8 +21,8 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/my_portfolio_picture.png';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
+import Project2 from './assets/img/projects/massive_home.png';
+import Project3 from './assets/img/projects/ecommercial_food_delivery.png';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
@@ -127,14 +127,18 @@ export const projectsData = [
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Massive home',
     category: 'web development',
+    githubLink: 'https://github.com/tannghiepnguyen123/Massive-Home.git',
+    demoLink: 'https://massive-home.vercel.app/'
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: 'Ecommerce Food Delivery',
     category: 'UI/UX design',
+    githubLink: 'https://github.com/tannghiepnguyen123/Ecommerce-Food-Delivery-App.git',
+    demoLink: 'https://ecommerce-food-delivery-app.vercel.app/'
   },
   {
     id: '4',

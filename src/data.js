@@ -20,22 +20,19 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/my_portfolio_picture.png';
 import Project2 from './assets/img/projects/massive_home.png';
 import Project3 from './assets/img/projects/ecommercial_food_delivery.png';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project4 from './assets/img/projects/dashboard.png';
+import Project5 from './assets/img/projects/weather-app.png';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -117,14 +114,6 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'My personal portfolio',
-    category: 'UI/UX design',
-    githubLink: 'https://github.com/tannghiepnguyen123/My-personal-portfolio.git',
-    demoLink: ''
-  },
-  {
     id: '2',
     image: Project2,
     name: 'Massive home',
@@ -143,20 +132,18 @@ export const projectsData = [
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
+    name: 'Dashboard',
     category: 'branding',
+    githubLink: 'https://github.com/tannghiepnguyen123/dashboard.git',
+    demoLink: 'https://dashboard-five-phi.vercel.app/'
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Weather App',
     category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    githubLink: 'https://github.com/tannghiepnguyen123/weather-app.git',
+    demoLink: 'https://weather-app-rust-phi.vercel.app/'
   },
 ];
 
@@ -191,16 +178,10 @@ export const skills = [
     image: SkillImg4,
   },
   {
-    image: SkillImg5,
-  },
-  {
     image: SkillImg6,
   },
   {
     image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
   },
 ];
 

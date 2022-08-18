@@ -1,6 +1,5 @@
 import React from "react";
 import MyImg from "../assets/img/my_img.jpg";
-import MyCV from "../assets/MyResume.pdf";
 
 export default function Hero() {
   return (
@@ -25,13 +24,6 @@ export default function Hero() {
               <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                 Work with me
               </button>
-              <a
-                download
-                className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all cursor-pointer"
-                href={MyCV}
-              >
-                Look at my CV
-              </a>
             </div>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
